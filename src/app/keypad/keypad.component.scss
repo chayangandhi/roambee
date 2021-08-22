@@ -1,0 +1,21 @@
+.key-item{
+    background-color: rgb(202, 202, 202);
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:black 1px solid
+}
+.key-item:hover{
+    cursor: pointer;
+}
+.key-row{
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}

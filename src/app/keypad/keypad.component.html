@@ -1,0 +1,6 @@
+<p>keypad works!</p>
+<div *ngFor="let i of keys; index as x;" class="key-row">
+    <span class="key-item" *ngFor="let j of i; index as y;" (click)="clicked(j, x+1, y+1)">
+        <strong>{{j}}</strong>
+    </span>
+</div>
